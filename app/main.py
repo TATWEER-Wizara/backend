@@ -11,6 +11,7 @@ from app.routes.shipments import shipments_router
 from app.database import connect_to_db, close_db_connection
 from app.routes.websockets import websocket_router
 from app.routes.decisioncontext import decision_context_router
+import os
 
 
 
@@ -39,3 +40,9 @@ app.include_router(decision_context_router,prefix="/api")
 @app.get("/")
 async def root():
     return {"message": "Welcome to Logistics API"}
+
+# Add at the end of the file
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.getenv("PORT", default=8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
