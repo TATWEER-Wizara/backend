@@ -6,13 +6,15 @@ from app.database import database, decision_context_collection
 import json
 from fastapi import Query
 from bson import ObjectId
-
+from fastapi import Body
+from app.models.decisioncontext import ProblemRequest
 
 
 decision_context_router = APIRouter()
 
 @decision_context_router.post("/decision-context/submit/")
 async def submit_decision_context(context: Context, user_id: str = Query(..., description="User ID")):
+
     """
     Send context to LLM and retrieve risks/decisions.
     This does NOT save data to the database yet.
@@ -32,22 +34,29 @@ async def submit_decision_context(context: Context, user_id: str = Query(..., de
 
     return response_data
 
-#get the best decision
 @decision_context_router.post("/decision-context/best-decision/")
-async def get_best_decision(problem: str, user_id: str = Query(..., description="User ID")):
-        #get all the past decision contexts for the user
-        user_id = user_id.strip("'")  # Remove accidental quotes
+async def get_best_decision_endpoint(
+    problem_request: ProblemRequest = Body(..., description="The problem description in the request body"),
+    user_id: str = Query(..., description="User ID")
+):
+    # Extract the problem from the request body
+    problem = problem_request
 
-        print(f"🔍 Searching for user_id: '{user_id}'")  # Debugging print
+    # Clean up the user_id (remove accidental quotes)
+    if isinstance(user_id, str):
+        user_id = user_id.strip("'")
+    
+    print(f"🔍 Searching for user_id: '{user_id}'")  # Debugging print
 
-        decision_contexts = await database.decision_context_collection.find({"user_id": user_id}).to_list(None)
-        if not decision_contexts:
-            raise HTTPException(status_code=404, detail="No decision contexts found for this user")
-        
-        #get the best decision
-        best_decision = await get_best_decision(problem, decision_contexts)
-        return best_decision
+    # Fetch all decision contexts for the user
+    decision_contexts = await database.decision_context_collection.find({"user_id": user_id}).to_list(None)
+    if not decision_contexts:
+        raise HTTPException(status_code=404, detail="No decision contexts found for this user")
 
+    # Get the best decision
+    best_decision = await get_best_decision(problem, decision_contexts)
+    return best_decision
+    
 
 
 

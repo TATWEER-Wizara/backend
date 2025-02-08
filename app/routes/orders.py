@@ -1,3 +1,17 @@
+"""
+Orders Routes Module
+
+This module handles all order-related API endpoints including CRUD operations
+for order management.
+
+Endpoints:
+    - POST /orders: Create new order
+    - GET /orders/{order_id}: Retrieve specific order
+    - PUT /orders/{order_id}: Update order
+    - DELETE /orders/{order_id}: Remove order
+    - GET /orders: List all orders
+"""
+
 # crud for orders
 
 from fastapi import APIRouter, HTTPException
@@ -10,6 +24,18 @@ orders_router = APIRouter()
 
 @orders_router.post("/orders", response_model=Order)
 async def create_order(order: Order):
+    """
+    Create a new order.
+
+    Args:
+        order (Order): Order data to create
+
+    Returns:
+        Order: Created order record with ID
+
+    Raises:
+        HTTPException: If creation fails
+    """
     order_dict = order.model_dump()
     order_dict["created_at"] = datetime.now(datetime.UTC)
 

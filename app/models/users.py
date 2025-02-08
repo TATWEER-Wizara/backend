@@ -1,3 +1,17 @@
+"""
+User Models Module
+
+This module defines the Pydantic models for user-related data structures.
+These models are used for request/response validation and documentation.
+
+Models:
+    - UserBase: Base user model with common fields
+    - UserLogin: Model for user login requests
+    - UserCreate: Model for user registration
+    - UserResponse: Model for user data responses
+    - TokenResponse: Model for authentication token responses
+"""
+
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional
 from bson import ObjectId

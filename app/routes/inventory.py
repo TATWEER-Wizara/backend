@@ -1,3 +1,17 @@
+"""
+Inventory Routes Module
+
+This module handles all inventory-related API endpoints including CRUD operations
+for inventory management.
+
+Endpoints:
+    - POST /inventory: Create new inventory record
+    - GET /inventory/{inventory_id}: Retrieve specific inventory
+    - PUT /inventory/{inventory_id}: Update inventory record
+    - DELETE /inventory/{inventory_id}: Remove inventory record
+    - GET /inventory: List all inventory records
+"""
+
 #crud for inventory
 from fastapi import APIRouter, HTTPException
 from app.models.inventory import Inventory
@@ -10,6 +24,18 @@ inventory_router = APIRouter()
 
 @inventory_router.post("/inventory", response_model=Inventory)
 async def create_inventory(inventory: Inventory):
+    """
+    Create a new inventory record.
+
+    Args:
+        inventory (Inventory): Inventory data to create
+
+    Returns:
+        Inventory: Created inventory record with ID
+
+    Raises:
+        HTTPException: If creation fails
+    """
     inventory_dict = inventory.model_dump()
     inventory_dict["created_at"] = datetime.now(datetime.UTC)
 

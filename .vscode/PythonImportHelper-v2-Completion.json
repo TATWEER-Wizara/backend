@@ -152,6 +152,30 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -585,6 +609,14 @@
         "documentation": {}
     },
     {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
         "label": "validate_email",
         "importPath": "email_validator",
         "description": "email_validator",
@@ -658,6 +690,14 @@
     },
     {
         "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1001,6 +1041,14 @@
         "documentation": {}
     },
     {
+        "label": "ProblemRequest",
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "isExtraImport": true,
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
         "label": "get_risks_and_decisions",
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
@@ -1290,6 +1338,15 @@
         "documentation": {}
     },
     {
+        "label": "ProblemRequest",
+        "kind": 6,
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "peekOfCode": "class ProblemRequest(BaseModel):\n    problem: str = Field(..., description=\"The problem description for which a decision is needed\")\nclass Context(BaseModel):\n    previsions: List[str] = Field(..., title=\"Previsions\", description=\"Previsions for the decision context\")\n    processes: List[str] = Field(..., title=\"Processes\", description=\"Processes for the decision context\")\n    constraints: List[str] = Field(..., title=\"Constraints\", description=\"Constraints for the decision context\")\nclass RiskDecision(BaseModel):\n    risk: str = Field(..., title=\"Risk\", description=\"Risk for the decision context\")\n    decision: str = Field(..., title=\"Decision\", description=\"Decision for the decision context\")\n    justification: Optional[str] = Field(None, title=\"Justification\", description=\"Justification for the decision context\")",
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
         "label": "Context",
         "kind": 6,
         "importPath": "app.models.decisioncontext",
@@ -1474,7 +1531,7 @@
         "kind": 5,
         "importPath": "app.routes.inventory",
         "description": "app.routes.inventory",
-        "peekOfCode": "inventory_router = APIRouter()\n@inventory_router.post(\"/inventory\", response_model=Inventory)\nasync def create_inventory(inventory: Inventory):\n    inventory_dict = inventory.model_dump()\n    inventory_dict[\"created_at\"] = datetime.now(datetime.UTC)\n    new_inventory = await inventory_collection.insert_one(inventory_dict)\n    return Inventory(**inventory_dict, id=str(new_inventory.inserted_id))\n@inventory_router.get(\"/inventory/{inventory_id}\", response_model=Inventory)\nasync def get_inventory(inventory_id: str):\n    inventory = await inventory_collection.find_one({\"_id\": ObjectId(inventory_id)})",
+        "peekOfCode": "inventory_router = APIRouter()\n@inventory_router.post(\"/inventory\", response_model=Inventory)\nasync def create_inventory(inventory: Inventory):\n    \"\"\"\n    Create a new inventory record.\n    Args:\n        inventory (Inventory): Inventory data to create\n    Returns:\n        Inventory: Created inventory record with ID\n    Raises:",
         "detail": "app.routes.inventory",
         "documentation": {}
     },
@@ -1483,7 +1540,7 @@
         "kind": 5,
         "importPath": "app.routes.orders",
         "description": "app.routes.orders",
-        "peekOfCode": "orders_router = APIRouter()\n@orders_router.post(\"/orders\", response_model=Order)\nasync def create_order(order: Order):\n    order_dict = order.model_dump()\n    order_dict[\"created_at\"] = datetime.now(datetime.UTC)\n    new_order = await orders_collection.insert_one(order_dict)\n    return Order(**order_dict, id=str(new_order.inserted_id))\n@orders_router.get(\"/orders/{order_id}\", response_model=Order)\nasync def get_order(order_id: str):\n    order = await orders_collection.find_one({\"_id\": ObjectId(order_id)})",
+        "peekOfCode": "orders_router = APIRouter()\n@orders_router.post(\"/orders\", response_model=Order)\nasync def create_order(order: Order):\n    \"\"\"\n    Create a new order.\n    Args:\n        order (Order): Order data to create\n    Returns:\n        Order: Created order record with ID\n    Raises:",
         "detail": "app.routes.orders",
         "documentation": {}
     },
@@ -1564,7 +1621,7 @@
         "kind": 2,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string\n    return hashed.decode('utf-8')\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    # Convert passwords to bytes for comparison",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"\n    Hash a password using bcrypt.\n    Args:\n        password (str): Plain text password to hash\n    Returns:\n        str: Hashed password as UTF-8 string\n    Example:\n        >>> hashed = hash_password(\"mypassword123\")\n    \"\"\"",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -1573,7 +1630,7 @@
         "kind": 2,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    # Convert passwords to bytes for comparison\n    password_bytes = plain_password.encode('utf-8')\n    hashed_bytes = hashed_password.encode('utf-8')\n    # Verify the password\n    return bcrypt.checkpw(password_bytes, hashed_bytes)\ndef create_access_token(email: str):\n    expire = datetime.utcnow() + timedelta(days=1)\n    payload = {\"sub\": email, \"exp\": expire}\n    return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"\n    Verify a password against its hash.\n    Args:\n        plain_password (str): Plain text password to verify\n        hashed_password (str): Hashed password to compare against\n    Returns:\n        bool: True if password matches, False otherwise\n    Example:\n        >>> is_valid = verify_password(\"mypassword123\", hashed_password)",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -1582,7 +1639,7 @@
         "kind": 2,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "def create_access_token(email: str):\n    expire = datetime.utcnow() + timedelta(days=1)\n    payload = {\"sub\": email, \"exp\": expire}\n    return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)",
+        "peekOfCode": "def create_access_token(email: str):\n    \"\"\"\n    Create a JWT access token for a user.\n    Args:\n        email (str): User's email address\n    Returns:\n        str: JWT token encoded as a string\n    Note:\n        Token expires in 24 hours from creation\n    Example:",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -1591,7 +1648,7 @@
         "kind": 5,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nprint(SECRET_KEY)\nALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nprint(SECRET_KEY)\nALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    \"\"\"\n    Hash a password using bcrypt.\n    Args:\n        password (str): Plain text password to hash\n    Returns:\n        str: Hashed password as UTF-8 string",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -1600,8 +1657,17 @@
         "kind": 5,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "ALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string\n    return hashed.decode('utf-8')\ndef verify_password(plain_password: str, hashed_password: str) -> bool:",
+        "peekOfCode": "ALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    \"\"\"\n    Hash a password using bcrypt.\n    Args:\n        password (str): Plain text password to hash\n    Returns:\n        str: Hashed password as UTF-8 string\n    Example:\n        >>> hashed = hash_password(\"mypassword123\")",
         "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "convert_objectid_to_str",
+        "kind": 2,
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "peekOfCode": "def convert_objectid_to_str(data: Any) -> Any:\n    \"\"\"\n    Recursively convert ObjectId fields to strings in a MongoDB document.\n    Args:\n        data (Any): The input data to convert. Can be a dictionary, list, ObjectId, or any other type.\n    Returns:\n        Any: The converted data with all ObjectId instances replaced with their string representations.\n    Example:\n        >>> doc = {\"_id\": ObjectId(\"507f1f77bcf86cd799439011\"), \"items\": [{\"id\": ObjectId(\"507f191e810c19729de860ea\")}]}\n        >>> convert_objectid_to_str(doc)",
+        "detail": "app.services.llm_service",
         "documentation": {}
     },
     {
@@ -1609,7 +1675,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "API_KEY = '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'\nif not API_KEY:\n    raise ValueError(\"❌ Missing API Key! Set OPENROUTER_API_KEY in your .env file.\")\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"",
+        "peekOfCode": "API_KEY = os.getenv(\"OPENROUTER_API_KEY\")\nif not API_KEY:\n    raise ValueError(\"❌ Missing API Key! Set OPENROUTER_API_KEY in your .env file.\")\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\ndef convert_objectid_to_str(data: Any) -> Any:\n    \"\"\"",
         "detail": "app.services.llm_service",
         "documentation": {}
     },
@@ -1618,7 +1684,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received:\", context_data)",
+        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\ndef convert_objectid_to_str(data: Any) -> Any:\n    \"\"\"\n    Recursively convert ObjectId fields to strings in a MongoDB document.\n    Args:\n        data (Any): The input data to convert. Can be a dictionary, list, ObjectId, or any other type.",
         "detail": "app.services.llm_service",
         "documentation": {}
     },
@@ -1627,7 +1693,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received:\", context_data)\n    prompt = f\"\"\"",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\ndef convert_objectid_to_str(data: Any) -> Any:\n    \"\"\"\n    Recursively convert ObjectId fields to strings in a MongoDB document.\n    Args:\n        data (Any): The input data to convert. Can be a dictionary, list, ObjectId, or any other type.\n    Returns:",
         "detail": "app.services.llm_service",
         "documentation": {}
     },

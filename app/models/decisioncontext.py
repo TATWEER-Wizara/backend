@@ -3,6 +3,9 @@ from datetime import datetime, UTC
 from pydantic import BaseModel, Field
 from bson import ObjectId
 
+class ProblemRequest(BaseModel):
+    problem: str = Field(..., description="The problem description for which a decision is needed")
+
 class Context(BaseModel):
     previsions: List[str] = Field(..., title="Previsions", description="Previsions for the decision context")
     processes: List[str] = Field(..., title="Processes", description="Processes for the decision context")
