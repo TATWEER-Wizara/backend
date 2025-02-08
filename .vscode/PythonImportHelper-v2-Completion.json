@@ -1,0 +1,1774 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "validate_email",
+        "importPath": "email_validator",
+        "description": "email_validator",
+        "isExtraImport": true,
+        "detail": "email_validator",
+        "documentation": {}
+    },
+    {
+        "label": "EmailNotValidError",
+        "importPath": "email_validator",
+        "description": "email_validator",
+        "isExtraImport": true,
+        "detail": "email_validator",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "decision_context_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "inventory_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "orders_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "production_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sales_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "shipments_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sales_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "production_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sop_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "connect_to_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "close_db_connection",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "isExtraImport": true,
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionContext",
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "isExtraImport": true,
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "isExtraImport": true,
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "get_risks_and_decisions",
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "isExtraImport": true,
+        "detail": "app.services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "send_decision_update",
+        "importPath": "app.routes.websockets",
+        "description": "app.routes.websockets",
+        "isExtraImport": true,
+        "detail": "app.routes.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_router",
+        "importPath": "app.routes.websockets",
+        "description": "app.routes.websockets",
+        "isExtraImport": true,
+        "detail": "app.routes.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Inventory",
+        "importPath": "app.models.inventory",
+        "description": "app.models.inventory",
+        "isExtraImport": true,
+        "detail": "app.models.inventory",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.orders",
+        "description": "app.models.orders",
+        "isExtraImport": true,
+        "detail": "app.models.orders",
+        "documentation": {}
+    },
+    {
+        "label": "Production",
+        "importPath": "app.models.productions",
+        "description": "app.models.productions",
+        "isExtraImport": true,
+        "detail": "app.models.productions",
+        "documentation": {}
+    },
+    {
+        "label": "Sale",
+        "importPath": "app.models.sales",
+        "description": "app.models.sales",
+        "isExtraImport": true,
+        "detail": "app.models.sales",
+        "documentation": {}
+    },
+    {
+        "label": "Shipment",
+        "importPath": "app.models.shipments",
+        "description": "app.models.shipments",
+        "isExtraImport": true,
+        "detail": "app.models.shipments",
+        "documentation": {}
+    },
+    {
+        "label": "SOP",
+        "importPath": "app.models.sop",
+        "description": "app.models.sop",
+        "isExtraImport": true,
+        "detail": "app.models.sop",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "importPath": "app.routes.auth",
+        "description": "app.routes.auth",
+        "isExtraImport": true,
+        "detail": "app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "users_router",
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "isExtraImport": true,
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "sales_router",
+        "importPath": "app.routes.sales",
+        "description": "app.routes.sales",
+        "isExtraImport": true,
+        "detail": "app.routes.sales",
+        "documentation": {}
+    },
+    {
+        "label": "production_router",
+        "importPath": "app.routes.productions",
+        "description": "app.routes.productions",
+        "isExtraImport": true,
+        "detail": "app.routes.productions",
+        "documentation": {}
+    },
+    {
+        "label": "sop_router",
+        "importPath": "app.routes.sop",
+        "description": "app.routes.sop",
+        "isExtraImport": true,
+        "detail": "app.routes.sop",
+        "documentation": {}
+    },
+    {
+        "label": "inventory_router",
+        "importPath": "app.routes.inventory",
+        "description": "app.routes.inventory",
+        "isExtraImport": true,
+        "detail": "app.routes.inventory",
+        "documentation": {}
+    },
+    {
+        "label": "orders_router",
+        "importPath": "app.routes.orders",
+        "description": "app.routes.orders",
+        "isExtraImport": true,
+        "detail": "app.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "shipments_router",
+        "importPath": "app.routes.shipments",
+        "description": "app.routes.shipments",
+        "isExtraImport": true,
+        "detail": "app.routes.shipments",
+        "documentation": {}
+    },
+    {
+        "label": "decision_context_router",
+        "importPath": "app.routes.decisioncontext",
+        "description": "app.routes.decisioncontext",
+        "isExtraImport": true,
+        "detail": "app.routes.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "kind": 6,
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "peekOfCode": "class Context(BaseModel):\n    previsions: List[str] = Field(..., title=\"Previsions\", description=\"Previsions for the decision context\")\n    processes: List[str] = Field(..., title=\"Processes\", description=\"Processes for the decision context\")\n    constraints: List[str] = Field(..., title=\"Constraints\", description=\"Constraints for the decision context\")\nclass RiskDecision(BaseModel):\n    risk: str = Field(..., title=\"Risk\", description=\"Risk for the decision context\")\n    decision: str = Field(..., title=\"Decision\", description=\"Decision for the decision context\")\n    justification: Optional[str] = Field(None, title=\"Justification\", description=\"Justification for the decision context\")\n    approved: bool = Field(False, title=\"Approved\", description=\"Approved for the decision context\")\nclass DecisionContext(BaseModel):",
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "RiskDecision",
+        "kind": 6,
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "peekOfCode": "class RiskDecision(BaseModel):\n    risk: str = Field(..., title=\"Risk\", description=\"Risk for the decision context\")\n    decision: str = Field(..., title=\"Decision\", description=\"Decision for the decision context\")\n    justification: Optional[str] = Field(None, title=\"Justification\", description=\"Justification for the decision context\")\n    approved: bool = Field(False, title=\"Approved\", description=\"Approved for the decision context\")\nclass DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(datetime.UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")",
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionContext",
+        "kind": 6,
+        "importPath": "app.models.decisioncontext",
+        "description": "app.models.decisioncontext",
+        "peekOfCode": "class DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(datetime.UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")\n    risks_decisions: List[RiskDecision] = []\n    class Config:\n        schema_extra = {\n            \"example\": {\n                \"user_id\": \"user12345\",",
+        "detail": "app.models.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "Inventory",
+        "kind": 6,
+        "importPath": "app.models.inventory",
+        "description": "app.models.inventory",
+        "peekOfCode": "class Inventory(BaseModel):\n    id: Optional[str] = Field(None, title=\"Inventory ID\", description=\"Unique identifier for the inventory\")\n    product_id: str = Field(..., title=\"Product ID\", description=\"Foreign key from Products collection\")\n    stock_level: int = Field(..., title=\"Stock Level\", description=\"Current stock quantity\")\n    warehouse_id: Optional[str] = Field(None, title=\"Warehouse ID\", description=\"Reference to Warehouses collection\")\n    last_updated: datetime = Field(default_factory=datetime.utcnow, title=\"Last Updated\", description=\"Last update timestamp\")\n    min_stock_level: int = Field(..., title=\"Minimum Stock Level\", description=\"Minimum stock level\")\n    max_stock_level: int = Field(..., title=\"Maximum Stock Level\", description=\"Maximum stock level\")\n    reorder_point: int = Field(..., title=\"Reorder Point\", description=\"Reorder point\")\n    batch_number: Optional[str] = Field(None, title=\"Batch Number\", description=\"Batch number\")",
+        "detail": "app.models.inventory",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "app.models.orders",
+        "description": "app.models.orders",
+        "peekOfCode": "class OrderItem(BaseModel):\n    product_id: str = Field(..., title=\"Product ID\", description=\"Foreign key from Products collection\")\n    quantity: int = Field(..., title=\"Quantity\", description=\"Quantity of the product\")\n    unit_price: float = Field(..., title=\"Unit Price\", description=\"Price of the product\")\n    subtotal: float = Field(..., title=\"Subtotal\", description=\"Subtotal of the product\")\nclass Order(BaseModel):\n    id: Optional[str] = Field(None, title=\"Order ID\", description=\"Unique identifier for the order\")\n    order_id: str = Field(..., title=\"Order ID\", description=\"Unique identifier for the order\")\n    user_id: str = Field(..., title=\"User ID\", description=\"Foreign key from Users collection\")\n    status: str = Field(..., title=\"Status\", description=\"Order status (Pending, Shipped, Completed)\")",
+        "detail": "app.models.orders",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "app.models.orders",
+        "description": "app.models.orders",
+        "peekOfCode": "class Order(BaseModel):\n    id: Optional[str] = Field(None, title=\"Order ID\", description=\"Unique identifier for the order\")\n    order_id: str = Field(..., title=\"Order ID\", description=\"Unique identifier for the order\")\n    user_id: str = Field(..., title=\"User ID\", description=\"Foreign key from Users collection\")\n    status: str = Field(..., title=\"Status\", description=\"Order status (Pending, Shipped, Completed)\")\n    created_at: datetime = Field(default_factory=datetime.utcnow, title=\"Created At\", description=\"Order creation timestamp\")\n    updated_at: Optional[datetime] = Field(None, title=\"Updated At\", description=\"Last update timestamp\")\n    total_amount: float = Field(..., title=\"Total Amount\", description=\"Total amount of the order\")\n    payment_status: str = Field(..., title=\"Payment Status\", description=\"Payment status of the order\")\n    items: List[OrderItem] = Field(..., title=\"Items\", description=\"Items in the order\")",
+        "detail": "app.models.orders",
+        "documentation": {}
+    },
+    {
+        "label": "Production",
+        "kind": 6,
+        "importPath": "app.models.productions",
+        "description": "app.models.productions",
+        "peekOfCode": "class Production(BaseModel):\n    id: Optional[str] = Field(None, title=\"Production ID\", description=\"Unique identifier for the production\")\n    product_id: str = Field(..., title=\"Product ID\", description=\"Foreign key from Products collection\")\n    quantity_produced: int = Field(..., title=\"Quantity Produced\", description=\"Quantity of the product produced\")\n    production_date: datetime = Field(default_factory=lambda: datetime.now(UTC), title=\"Production Date\", description=\"Date of the production\")\n    factory_location: str = Field(..., title=\"Factory Location\", description=\"Location of the factory where the production occurred\")\n    batch_number: str = Field(..., title=\"Batch Number\", description=\"Batch number of the production\")\n    production_cost: float = Field(..., title=\"Production Cost\", description=\"Cost of the production\")\n    quality_status: str = Field(..., title=\"Quality Status\", description=\"Quality status of the production\")\n    waste_quantity: int = Field(..., title=\"Waste Quantity\", description=\"Quantity of waste produced during the production\")",
+        "detail": "app.models.productions",
+        "documentation": {}
+    },
+    {
+        "label": "Sale",
+        "kind": 6,
+        "importPath": "app.models.sales",
+        "description": "app.models.sales",
+        "peekOfCode": "class Sale(BaseModel):\n    id: Optional[str] = Field(None, title=\"Sale ID\", description=\"Unique identifier for the sale\")\n    product_id: str = Field(..., title=\"Product ID\", description=\"Foreign key from Products collection\")\n    quantity_sold: int = Field(..., title=\"Quantity Sold\", description=\"Quantity of the product sold\")\n    revenue: float = Field(..., title=\"Revenue\", description=\"Revenue generated from the sale\")\n    sale_date: datetime = Field(default_factory=datetime.utcnow, title=\"Sale Date\", description=\"Date of the sale\")\n    region: str = Field(..., title=\"Region\", description=\"Region where the sale occurred\")\n    customer_segment: str = Field(..., title=\"Customer Segment\", description=\"Segment of the customer who made the purchase\")\n    discount: float = Field(..., title=\"Discount\", description=\"Discount applied to the sale\")\n    cost_of_goods_sold: float = Field(..., title=\"Cost of Goods Sold\", description=\"Cost of the goods sold\")",
+        "detail": "app.models.sales",
+        "documentation": {}
+    },
+    {
+        "label": "ShipmentStatusUpdate",
+        "kind": 6,
+        "importPath": "app.models.shipments",
+        "description": "app.models.shipments",
+        "peekOfCode": "class ShipmentStatusUpdate(BaseModel):\n    timestamp: datetime = Field(default_factory=lambda: datetime.now(UTC), title=\"Timestamp\", description=\"Timestamp of the shipment status update\")\n    status: str = Field(..., title=\"Status\", description=\"Current shipment status (Pending, In Transit, Delivered)\")\nclass Shipment(BaseModel):\n    id: Optional[str] = Field(None, title=\"Shipment ID\", description=\"Unique identifier for the shipment\")\n    order_id: str = Field(..., title=\"Order ID\", description=\"Foreign key from Orders collection\")\n    origin: str = Field(..., title=\"Origin\", description=\"Starting point of the shipment\")\n    destination: str = Field(..., title=\"Destination\", description=\"End point of the shipment\")\n    status: str = Field(..., title=\"Status\", description=\"Current shipment status (Pending, In Transit, Delivered)\")\n    expected_delivery: datetime = Field(..., title=\"Expected Delivery\", description=\"Estimated arrival date\")",
+        "detail": "app.models.shipments",
+        "documentation": {}
+    },
+    {
+        "label": "Shipment",
+        "kind": 6,
+        "importPath": "app.models.shipments",
+        "description": "app.models.shipments",
+        "peekOfCode": "class Shipment(BaseModel):\n    id: Optional[str] = Field(None, title=\"Shipment ID\", description=\"Unique identifier for the shipment\")\n    order_id: str = Field(..., title=\"Order ID\", description=\"Foreign key from Orders collection\")\n    origin: str = Field(..., title=\"Origin\", description=\"Starting point of the shipment\")\n    destination: str = Field(..., title=\"Destination\", description=\"End point of the shipment\")\n    status: str = Field(..., title=\"Status\", description=\"Current shipment status (Pending, In Transit, Delivered)\")\n    expected_delivery: datetime = Field(..., title=\"Expected Delivery\", description=\"Estimated arrival date\")\n    actual_delivery: Optional[datetime] = Field(None, title=\"Actual Delivery\", description=\"Actual delivery date\")\n    tracking_number: str = Field(..., title=\"Tracking Number\", description=\"Tracking number of the shipment\")\n    carrier: str = Field(..., title=\"Carrier\", description=\"Carrier of the shipment\")",
+        "detail": "app.models.shipments",
+        "documentation": {}
+    },
+    {
+        "label": "SOP",
+        "kind": 6,
+        "importPath": "app.models.sop",
+        "description": "app.models.sop",
+        "peekOfCode": "class SOP(BaseModel):\n    id: Optional[str] = Field(None, title=\"SOP ID\", description=\"Unique identifier for the SOP\")\n    product_id: str = Field(..., title=\"Product ID\", description=\"Foreign key from Products collection\")\n    forecasted_demand: List[dict] = Field(..., description=\"The forecasted demand for the product\")\n    planned_production: int = Field(..., title=\"Planned Production\", description=\"Planned production for the product\")\n    planned_inventory: int = Field(..., title=\"Planned Inventory\", description=\"Planned inventory for the product\")\n    period: datetime = Field(..., title=\"Period\", description=\"Period of the SOP\")\n    confidence_level: float = Field(..., title=\"Confidence Level\", description=\"Confidence level of the SOP\")\n    actual_demand: int = Field(..., title=\"Actual Demand\", description=\"Actual demand for the product\")\n    revision_number: int = Field(..., title=\"Revision Number\", description=\"Revision number of the SOP\")",
+        "detail": "app.models.sop",
+        "documentation": {}
+    },
+    {
+        "label": "Supplier",
+        "kind": 6,
+        "importPath": "app.models.suppliers",
+        "description": "app.models.suppliers",
+        "peekOfCode": "class Supplier(BaseModel):\n    id: Optional[str] = Field(None, title=\"Supplier ID\", description=\"Unique identifier for the supplier\")\n    name: str = Field(..., title=\"Supplier Name\", description=\"Name of the supplier\")\n    contact_person: str = Field(..., title=\"Supplier Contact Person\", description=\"Contact person of the supplier\")\n    email: EmailStr = Field(..., title=\"Supplier Email\", description=\"Email of the supplier\")\n    phone: str = Field(..., title=\"Supplier Phone\", description=\"Phone number of the supplier\")\n    address: str = Field(..., title=\"Supplier Address\", description=\"Address of the supplier\")\n    payment_terms: str = Field(..., title=\"Supplier Payment Terms\", description=\"Payment terms of the supplier\")\n    lead_time: int = Field(..., title=\"Supplier Lead Time\", description=\"Lead time of the supplier\")",
+        "detail": "app.models.suppliers",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "peekOfCode": "class UserBase(BaseModel):\n    email: EmailStr = Field(..., description=\"The email address for the user\")\nclass UserLogin(UserBase):\n    password: str = Field(..., description=\"The password for the user\")\nclass UserCreate(UserBase):\n    company_name: str = Field(..., description=\"The companyname of the user\")\n    password: str = Field(..., description=\"The password for the user\")\n    created_at: datetime = Field(default_factory=lambda: datetime.now(UTC), description=\"The date and time the user was created\")\nclass UserResponse(UserBase):\n    id: str = Field(..., description=\"The unique identifier for the user\")",
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "peekOfCode": "class UserLogin(UserBase):\n    password: str = Field(..., description=\"The password for the user\")\nclass UserCreate(UserBase):\n    company_name: str = Field(..., description=\"The companyname of the user\")\n    password: str = Field(..., description=\"The password for the user\")\n    created_at: datetime = Field(default_factory=lambda: datetime.now(UTC), description=\"The date and time the user was created\")\nclass UserResponse(UserBase):\n    id: str = Field(..., description=\"The unique identifier for the user\")\n    company_name: str = Field(..., description=\"The company name of the user\")\nclass TokenResponse(BaseModel):",
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "peekOfCode": "class UserCreate(UserBase):\n    company_name: str = Field(..., description=\"The companyname of the user\")\n    password: str = Field(..., description=\"The password for the user\")\n    created_at: datetime = Field(default_factory=lambda: datetime.now(UTC), description=\"The date and time the user was created\")\nclass UserResponse(UserBase):\n    id: str = Field(..., description=\"The unique identifier for the user\")\n    company_name: str = Field(..., description=\"The company name of the user\")\nclass TokenResponse(BaseModel):\n    access_token: str = Field(..., description=\"The access token for the user\")\n    token_type: str = Field(..., description=\"The type of token\")",
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "peekOfCode": "class UserResponse(UserBase):\n    id: str = Field(..., description=\"The unique identifier for the user\")\n    company_name: str = Field(..., description=\"The company name of the user\")\nclass TokenResponse(BaseModel):\n    access_token: str = Field(..., description=\"The access token for the user\")\n    token_type: str = Field(..., description=\"The type of token\")",
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "app.models.users",
+        "description": "app.models.users",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str = Field(..., description=\"The access token for the user\")\n    token_type: str = Field(..., description=\"The type of token\")",
+        "detail": "app.models.users",
+        "documentation": {}
+    },
+    {
+        "label": "Warehouse",
+        "kind": 6,
+        "importPath": "app.models.warehouses",
+        "description": "app.models.warehouses",
+        "peekOfCode": "class Warehouse(BaseModel):\n    id: Optional[str] = Field(None, title=\"Warehouse ID\", description=\"Unique identifier for the warehouse\")\n    name: str = Field(..., title=\"Warehouse Name\", description=\"Name of the warehouse\")\n    location: str = Field(..., title=\"Warehouse Location\", description=\"Location of the warehouse\")\n    capacity: int = Field(..., title=\"Warehouse Capacity\", description=\"Capacity of the warehouse\")\n    manager: str = Field(..., title=\"Warehouse Manager\", description=\"Manager of the warehouse\")\n    is_active: bool = Field(..., title=\"Warehouse Active\", description=\"Active status of the warehouse\")",
+        "detail": "app.models.warehouses",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "kind": 5,
+        "importPath": "app.routes.auth",
+        "description": "app.routes.auth",
+        "peekOfCode": "auth_router = APIRouter()\n@auth_router.post(\"/register\", response_model=TokenResponse)\nasync def register_user(user: UserCreate):\n    existing_user = await users_collection.find_one({\"email\": user.email})\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"User already exists\")\n    user_data = user.model_dump()\n    user_data[\"password\"] = hash_password(user.password)\n    user_data[\"company_name\"] = user.company_name\n    user_data[\"_id\"] = str(ObjectId())",
+        "detail": "app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decision_context_router",
+        "kind": 5,
+        "importPath": "app.routes.decisioncontext",
+        "description": "app.routes.decisioncontext",
+        "peekOfCode": "decision_context_router = APIRouter()\n@decision_context_router.post(\"/decision-context/submit/\")\nasync def submit_decision_context(context: Context, user_id: str = Query(..., description=\"User ID\")):\n    \"\"\"\n    Send context to LLM and retrieve risks/decisions.\n    This does NOT save data to the database yet.\n    \"\"\"\n    print(context.model_dump())\n    llm_response = await get_risks_and_decisions(context.model_dump())\n    risks_decisions = llm_response",
+        "detail": "app.routes.decisioncontext",
+        "documentation": {}
+    },
+    {
+        "label": "inventory_router",
+        "kind": 5,
+        "importPath": "app.routes.inventory",
+        "description": "app.routes.inventory",
+        "peekOfCode": "inventory_router = APIRouter()\n@inventory_router.post(\"/inventory\", response_model=Inventory)\nasync def create_inventory(inventory: Inventory):\n    inventory_dict = inventory.model_dump()\n    inventory_dict[\"created_at\"] = datetime.now(datetime.UTC)\n    new_inventory = await inventory_collection.insert_one(inventory_dict)\n    return Inventory(**inventory_dict, id=str(new_inventory.inserted_id))\n@inventory_router.get(\"/inventory/{inventory_id}\", response_model=Inventory)\nasync def get_inventory(inventory_id: str):\n    inventory = await inventory_collection.find_one({\"_id\": ObjectId(inventory_id)})",
+        "detail": "app.routes.inventory",
+        "documentation": {}
+    },
+    {
+        "label": "orders_router",
+        "kind": 5,
+        "importPath": "app.routes.orders",
+        "description": "app.routes.orders",
+        "peekOfCode": "orders_router = APIRouter()\n@orders_router.post(\"/orders\", response_model=Order)\nasync def create_order(order: Order):\n    order_dict = order.model_dump()\n    order_dict[\"created_at\"] = datetime.now(datetime.UTC)\n    new_order = await orders_collection.insert_one(order_dict)\n    return Order(**order_dict, id=str(new_order.inserted_id))\n@orders_router.get(\"/orders/{order_id}\", response_model=Order)\nasync def get_order(order_id: str):\n    order = await orders_collection.find_one({\"_id\": ObjectId(order_id)})",
+        "detail": "app.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "production_router",
+        "kind": 5,
+        "importPath": "app.routes.productions",
+        "description": "app.routes.productions",
+        "peekOfCode": "production_router = APIRouter()\n@production_router.post(\"/production\")\nasync def add_production(production: Production):\n    production_dict = production.model_dump()\n    production_dict[\"date\"] = datetime.datetime.now(UTC)\n    new_production = await production_collection.insert_one(production_dict)\n    return {\"message\": \"Production recorded\", \"production_id\": str(new_production.inserted_id)}\n@production_router.get(\"/production\")\nasync def get_production():\n    production = await production_collection.find().to_list(100)",
+        "detail": "app.routes.productions",
+        "documentation": {}
+    },
+    {
+        "label": "sales_router",
+        "kind": 5,
+        "importPath": "app.routes.sales",
+        "description": "app.routes.sales",
+        "peekOfCode": "sales_router = APIRouter()\n@sales_router.post(\"/sales\")\nasync def add_sale(sale: Sale):\n    sale_dict = sale.model_dump()\n    sale_dict[\"date\"] = datetime.datetime.now(datetime.UTC)\n    new_sale = await sales_collection.insert_one(sale_dict)\n    return {\"message\": \"Sale recorded\", \"sale_id\": str(new_sale.inserted_id)}\n@sales_router.get(\"/sales\")\nasync def get_sales():\n    sales = await sales_collection.find().to_list(100)",
+        "detail": "app.routes.sales",
+        "documentation": {}
+    },
+    {
+        "label": "shipments_router",
+        "kind": 5,
+        "importPath": "app.routes.shipments",
+        "description": "app.routes.shipments",
+        "peekOfCode": "shipments_router = APIRouter()\n@shipments_router.post(\"/shipments\", response_model=Shipment)\nasync def create_shipment(shipment: Shipment):\n    shipment_dict = shipment.model_dump()\n    shipment_dict[\"created_at\"] = datetime.now(datetime.UTC)\n    new_shipment = await shipments_collection.insert_one(shipment_dict)\n    return Shipment(**shipment_dict, id=str(new_shipment.inserted_id))\n@shipments_router.get(\"/shipments/{shipment_id}\", response_model=Shipment)\nasync def get_shipment(shipment_id: str):\n    shipment = await shipments_collection.find_one({\"_id\": ObjectId(shipment_id)})",
+        "detail": "app.routes.shipments",
+        "documentation": {}
+    },
+    {
+        "label": "sop_router",
+        "kind": 5,
+        "importPath": "app.routes.sop",
+        "description": "app.routes.sop",
+        "peekOfCode": "sop_router = APIRouter()\n@sop_router.post(\"/sop\")\nasync def generate_sop_plan():\n    # Récupération des ventes et productions\n    sales = await sales_collection.find().to_list(100)\n    production = await production_collection.find().to_list(100)\n    forecasted_demand = {}\n    production_capacity = {}\n    # Agrégation des données\n    for sale in sales:",
+        "detail": "app.routes.sop",
+        "documentation": {}
+    },
+    {
+        "label": "users_router",
+        "kind": 5,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "users_router = APIRouter()\n@users_router.get(\"/users\", response_model=list[UserResponse])\nasync def get_users():\n    users = await users_collection.find().to_list(100)\n    return [{\"id\": str(user[\"_id\"]), \"email\": user[\"email\"], \"company_name\": user[\"company_name\"]} for user in users]\n@users_router.get(\"/users/{user_id}\", response_model=UserResponse)\nasync def get_user(user_id: str):\n    user = await users_collection.find_one({\"_id\": ObjectId(user_id)})\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketManager",
+        "kind": 6,
+        "importPath": "app.routes.websockets",
+        "description": "app.routes.websockets",
+        "peekOfCode": "class WebSocketManager:\n    def __init__(self):\n        self.active_connections: List[WebSocket] = []\n    async def connect(self, websocket: WebSocket):\n        await websocket.accept()\n        self.active_connections.append(websocket)\n    async def disconnect(self, websocket: WebSocket):\n        self.active_connections.remove(websocket)\n    async def send_message(self, message: dict):\n        for connection in self.active_connections:",
+        "detail": "app.routes.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_router",
+        "kind": 5,
+        "importPath": "app.routes.websockets",
+        "description": "app.routes.websockets",
+        "peekOfCode": "websocket_router = APIRouter()\nclass WebSocketManager:\n    def __init__(self):\n        self.active_connections: List[WebSocket] = []\n    async def connect(self, websocket: WebSocket):\n        await websocket.accept()\n        self.active_connections.append(websocket)\n    async def disconnect(self, websocket: WebSocket):\n        self.active_connections.remove(websocket)\n    async def send_message(self, message: dict):",
+        "detail": "app.routes.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "app.routes.websockets",
+        "description": "app.routes.websockets",
+        "peekOfCode": "manager = WebSocketManager()\n@websocket_router.websocket(\"/ws/decisions\")\nasync def websocket_endpoint(websocket: WebSocket):\n    await manager.connect(websocket)\n    try:\n        while True:\n            await websocket.receive_text()  # Keep connection open\n    except WebSocketDisconnect:\n        await manager.disconnect(websocket)\nasync def send_decision_update(message: dict):",
+        "detail": "app.routes.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string\n    return hashed.decode('utf-8')\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    # Convert passwords to bytes for comparison",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    # Convert passwords to bytes for comparison\n    password_bytes = plain_password.encode('utf-8')\n    hashed_bytes = hashed_password.encode('utf-8')\n    # Verify the password\n    return bcrypt.checkpw(password_bytes, hashed_bytes)\ndef create_access_token(email: str):\n    expire = datetime.utcnow() + timedelta(days=1)\n    payload = {\"sub\": email, \"exp\": expire}\n    return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def create_access_token(email: str):\n    expire = datetime.utcnow() + timedelta(days=1)\n    payload = {\"sub\": email, \"exp\": expire}\n    return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nprint(SECRET_KEY)\nALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "ALGORITHM = \"HS256\"\ndef hash_password(password: str) -> str:\n    # Convert the password to bytes\n    password_bytes = password.encode('utf-8')\n    # Generate salt and hash the password\n    salt = bcrypt.gensalt()\n    hashed = bcrypt.hashpw(password_bytes, salt)\n    # Return the hash as a string\n    return hashed.decode('utf-8')\ndef verify_password(plain_password: str, hashed_password: str) -> bool:",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "peekOfCode": "API_KEY = \"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\"\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"",
+        "detail": "app.services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received in FastAPI:\", context_data)",
+        "detail": "app.services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received in FastAPI:\", context_data)\n    prompt = f\"\"\"",
+        "detail": "app.services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "MONGO_URI = os.getenv(\"MONGO_URI\")\nDATABASE_NAME = os.getenv(\"DATABASE_NAME\")\nclient = AsyncIOMotorClient(MONGO_URI)\ndatabase = client[DATABASE_NAME]\nusers_collection = database.get_collection(\"users\")\nsales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_NAME",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "DATABASE_NAME = os.getenv(\"DATABASE_NAME\")\nclient = AsyncIOMotorClient(MONGO_URI)\ndatabase = client[DATABASE_NAME]\nusers_collection = database.get_collection(\"users\")\nsales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndatabase = client[DATABASE_NAME]\nusers_collection = database.get_collection(\"users\")\nsales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "database = client[DATABASE_NAME]\nusers_collection = database.get_collection(\"users\")\nsales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "users_collection = database.get_collection(\"users\")\nsales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sales_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "sales_collection = database.get_collection(\"sales\")\nproduction_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "production_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "production_collection = database.get_collection(\"production\")\nsop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  ",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sop_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "sop_collection = database.get_collection(\"sop\")\ninventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "inventory_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "inventory_collection = database.get_collection(\"inventory\")\norders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")\n    except Exception as e:",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "orders_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "orders_collection = database.get_collection(\"orders\")\nshipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")\n    except Exception as e:\n        print(f\"❌ Error connecting to MongoDB: {e}\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "shipments_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "shipments_collection = database.get_collection(\"shipments\")\ndecision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")\n    except Exception as e:\n        print(f\"❌ Error connecting to MongoDB: {e}\")\n        raise e",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "decision_context_collection",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "decision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")\n    except Exception as e:\n        print(f\"❌ Error connecting to MongoDB: {e}\")\n        raise e\nasync def close_db_connection():",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(title=\"Logistics API\", lifespan=lifespan)\n# Routes\napp.include_router(websocket_router, prefix=\"/ws\", tags=[\"Websockets\"])\napp.include_router(auth_router, prefix=\"/auth\", tags=[\"Authentication\"])\napp.include_router(users_router, prefix=\"/users\", tags=[\"Users\"])\napp.include_router(sales_router, prefix=\"/sales\", tags=[\"Sales\"])\napp.include_router(production_router, prefix=\"/production\", tags=[\"Production\"])\napp.include_router(sop_router, prefix=\"/sop\", tags=[\"S&OP\"])\napp.include_router(inventory_router, prefix=\"/inventory\", tags=[\"Inventory\"])\napp.include_router(orders_router, prefix=\"/orders\", tags=[\"Orders\"])",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "API_KEY = \"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\" # Ensure this is set\n# Ensure API key is correctly loaded\nif not API_KEY:\n    raise ValueError(\"❌ OPENROUTER_API_KEY is not set. Please check your environment variables!\")\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",  \n    \"Content-Type\": \"application/json\",\n}\ncontext = {",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",  \n    \"Content-Type\": \"application/json\",\n}\ncontext = {\n  \"previsions\": [\"Increase in demand by 15%\", \"Expected supplier delays\"],\n  \"processes\": [\"Just-in-time inventory\", \"Automated warehouse sorting\"],\n  \"constraints\": [\"Limited storage space\", \"Budget restrictions\"]\n}",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",  \n    \"Content-Type\": \"application/json\",\n}\ncontext = {\n  \"previsions\": [\"Increase in demand by 15%\", \"Expected supplier delays\"],\n  \"processes\": [\"Just-in-time inventory\", \"Automated warehouse sorting\"],\n  \"constraints\": [\"Limited storage space\", \"Budget restrictions\"]\n}\nprompt = f\"\"\"",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "context = {\n  \"previsions\": [\"Increase in demand by 15%\", \"Expected supplier delays\"],\n  \"processes\": [\"Just-in-time inventory\", \"Automated warehouse sorting\"],\n  \"constraints\": [\"Limited storage space\", \"Budget restrictions\"]\n}\nprompt = f\"\"\"\n    Given the following logistics context:\n    - Previsions: {context['previsions']}\n    - Processes: {context['processes']}\n    - Constraints: {context['constraints']}",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "prompt = f\"\"\"\n    Given the following logistics context:\n    - Previsions: {context['previsions']}\n    - Processes: {context['processes']}\n    - Constraints: {context['constraints']}\n    Identify potential risks and suggest decisions to optimize logistics.\n    Format your response as a JSON list of objects, each containing:\n    - \"risk\": A description of the risk.\n    - \"decision\": A recommended decision to mitigate the risk.\n    \"\"\"",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "DATA",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "DATA = {\n    \"model\": \"google/gemini-2.0-flash-lite-preview-02-05:free\",  \n    \"messages\": [ {\"role\": \"system\", \"content\": \"You are an AI assisting with logistics optimization.\"},\n                    {\"role\": \"user\", \"content\": prompt}]\n}\n# Send request\nresponse = requests.post(URL, headers=HEADERS, data=json.dumps(DATA))\n# Debugging output\nprint(\"🔹 Request Headers:\", HEADERS)\nprint(\"🔹 API Key Sent:\", \"Yes\" if API_KEY else \"No\")",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "tests.test_llm",
+        "description": "tests.test_llm",
+        "peekOfCode": "response = requests.post(URL, headers=HEADERS, data=json.dumps(DATA))\n# Debugging output\nprint(\"🔹 Request Headers:\", HEADERS)\nprint(\"🔹 API Key Sent:\", \"Yes\" if API_KEY else \"No\")\nprint(\"🔹 Response Status:\", response.status_code)\nprint(\"🔹 Response Body:\", response.json()[\"choices\"][0][\"message\"][\"content\"])",
+        "detail": "tests.test_llm",
+        "documentation": {}
+    }
+]
