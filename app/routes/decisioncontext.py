@@ -1,9 +1,12 @@
 from fastapi import APIRouter, HTTPException, Depends, Query
 from app.models.decisioncontext import DecisionContext, Context
-from app.services.llm_service import get_risks_and_decisions
+from app.services.llm_service import get_risks_and_decisions, get_best_decision
 from app.routes.websockets import send_decision_update
 from app.database import database, decision_context_collection
 import json
+from fastapi import Query
+from bson import ObjectId
+
 
 
 decision_context_router = APIRouter()
@@ -29,24 +32,48 @@ async def submit_decision_context(context: Context, user_id: str = Query(..., de
 
     return response_data
 
+#get the best decision
+@decision_context_router.post("/decision-context/best-decision/")
+async def get_best_decision(problem: str, user_id: str = Query(..., description="User ID")):
+        #get all the past decision contexts for the user
+        user_id = user_id.strip("'")  # Remove accidental quotes
 
-@decision_context_router.post("/decision-context/approve/")
-async def approve_decision_context(decision_context: DecisionContext):
-    """
-    Save the full DecisionContext object after approval/denial.
-    """
-    decision_context_id = await database.decision_context_collection.insert_one(decision_context.model_dump())
+        print(f"🔍 Searching for user_id: '{user_id}'")  # Debugging print
 
-    return {"message": "DecisionContext saved", "id": str(decision_context_id.inserted_id)}
+        decision_contexts = await database.decision_context_collection.find({"user_id": user_id}).to_list(None)
+        if not decision_contexts:
+            raise HTTPException(status_code=404, detail="No decision contexts found for this user")
+        
+        #get the best decision
+        best_decision = await get_best_decision(problem, decision_contexts)
+        return best_decision
 
 
-# get all decision contexts for a user
-@decision_context_router.get("/decision-contexts/user/{user_id}")
-async def get_all_decision_contexts_for_user(user_id: str):
+
+
+@decision_context_router.get("/decision-contexts/user")
+async def get_all_decision_contexts_for_user(user_id: str = Query(..., description="User ID")):
+    user_id = user_id.strip("'").strip('"')  
+
+    print(f"🔍 Searching for user_id: '{user_id}'")  # Debugging print
+
     decision_contexts = await database.decision_context_collection.find({"user_id": user_id}).to_list(None)
+
     if not decision_contexts:
         raise HTTPException(status_code=404, detail="No decision contexts found for this user")
+
+    # ✅ Convert `_id` from `ObjectId` to `str` before returning
+    for context in decision_contexts:
+        context["_id"] = str(context["_id"])
+
     return decision_contexts
+
+
+#create a new decision context
+@decision_context_router.post("/decision-context/create/")
+async def create_decision_context(decision_context: DecisionContext):
+    await database.decision_context_collection.insert_one(decision_context.model_dump())
+    return decision_context
 
 
 

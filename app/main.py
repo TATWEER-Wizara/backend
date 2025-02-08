@@ -38,11 +38,7 @@ app.include_router(decision_context_router,prefix="/api")
     
 
 @app.get("/")
-async def root():
-    return {"message": "Welcome to Logistics API"}
+def read_root():
+    return {"message": "Welcome to TATWEER LOGISTICS API"}
 
-# Add at the end of the file
-if __name__ == "__main__":
-    import uvicorn
-    port = int(os.getenv("PORT", default=8000))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+

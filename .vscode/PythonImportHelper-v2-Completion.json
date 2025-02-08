@@ -169,6 +169,14 @@
         "documentation": {}
     },
     {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -569,6 +577,14 @@
         "documentation": {}
     },
     {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
         "label": "validate_email",
         "importPath": "email_validator",
         "description": "email_validator",
@@ -626,6 +642,14 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -985,6 +1009,14 @@
         "documentation": {}
     },
     {
+        "label": "get_best_decision",
+        "importPath": "app.services.llm_service",
+        "description": "app.services.llm_service",
+        "isExtraImport": true,
+        "detail": "app.services.llm_service",
+        "documentation": {}
+    },
+    {
         "label": "send_decision_update",
         "importPath": "app.routes.websockets",
         "description": "app.routes.websockets",
@@ -1082,6 +1114,14 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -1263,7 +1303,7 @@
         "kind": 6,
         "importPath": "app.models.decisioncontext",
         "description": "app.models.decisioncontext",
-        "peekOfCode": "class RiskDecision(BaseModel):\n    risk: str = Field(..., title=\"Risk\", description=\"Risk for the decision context\")\n    decision: str = Field(..., title=\"Decision\", description=\"Decision for the decision context\")\n    justification: Optional[str] = Field(None, title=\"Justification\", description=\"Justification for the decision context\")\n    approved: bool = Field(False, title=\"Approved\", description=\"Approved for the decision context\")\nclass DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(datetime.UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")",
+        "peekOfCode": "class RiskDecision(BaseModel):\n    risk: str = Field(..., title=\"Risk\", description=\"Risk for the decision context\")\n    decision: str = Field(..., title=\"Decision\", description=\"Decision for the decision context\")\n    justification: Optional[str] = Field(None, title=\"Justification\", description=\"Justification for the decision context\")\n    approved: bool = Field(False, title=\"Approved\", description=\"Approved for the decision context\")\nclass DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")",
         "detail": "app.models.decisioncontext",
         "documentation": {}
     },
@@ -1272,7 +1312,7 @@
         "kind": 6,
         "importPath": "app.models.decisioncontext",
         "description": "app.models.decisioncontext",
-        "peekOfCode": "class DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(datetime.UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")\n    risks_decisions: List[RiskDecision] = []\n    class Config:\n        schema_extra = {\n            \"example\": {\n                \"user_id\": \"user12345\",",
+        "peekOfCode": "class DecisionContext(BaseModel):\n    id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias=\"_id\")\n    user_id: str = Field(..., title=\"User ID\", description=\"User ID for the decision context\")\n    date: datetime = Field(default_factory=lambda: datetime.now(UTC))\n    context: Context = Field(..., title=\"Context\", description=\"Context for the decision context\")\n    risks_decisions: List[RiskDecision] = []\n    class Config:\n        schema_extra = {\n            \"example\": {\n                \"user_id\": \"user12345\",",
         "detail": "app.models.decisioncontext",
         "documentation": {}
     },
@@ -1569,7 +1609,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "API_KEY = \"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\"\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"",
+        "peekOfCode": "API_KEY = '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'\nif not API_KEY:\n    raise ValueError(\"❌ Missing API Key! Set OPENROUTER_API_KEY in your .env file.\")\nURL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"",
         "detail": "app.services.llm_service",
         "documentation": {}
     },
@@ -1578,7 +1618,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received in FastAPI:\", context_data)",
+        "peekOfCode": "URL = \"https://openrouter.ai/api/v1/chat/completions\"\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received:\", context_data)",
         "detail": "app.services.llm_service",
         "documentation": {}
     },
@@ -1587,7 +1627,7 @@
         "kind": 5,
         "importPath": "app.services.llm_service",
         "description": "app.services.llm_service",
-        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received in FastAPI:\", context_data)\n    prompt = f\"\"\"",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"Bearer {API_KEY}\",\n    \"Content-Type\": \"application/json\",\n}\nasync def get_risks_and_decisions(context_data: dict):\n    \"\"\"\n    Calls the OpenRouter LLM API asynchronously to analyze logistics context and return risks and decisions.\n    \"\"\"\n    print(\"📤 Context Data Received:\", context_data)\n    prompt = f\"\"\"",
         "detail": "app.services.llm_service",
         "documentation": {}
     },
@@ -1697,6 +1737,15 @@
         "description": "app.database",
         "peekOfCode": "decision_context_collection = database.get_collection(\"decision_context\")\nasync def connect_to_db():\n    \"\"\"Asynchronously check MongoDB connection on startup\"\"\"\n    try:\n        await client.admin.command(\"ping\")  \n        print(\"✅ Connected to MongoDB successfully\")\n    except Exception as e:\n        print(f\"❌ Error connecting to MongoDB: {e}\")\n        raise e\nasync def close_db_connection():",
         "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def read_root():\n    return {\"message\": \"Welcome to TATWEER LOGISTICS API\"}",
+        "detail": "app.main",
         "documentation": {}
     },
     {

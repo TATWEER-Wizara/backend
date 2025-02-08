@@ -1,5 +1,5 @@
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, UTC
 from pydantic import BaseModel, Field
 from bson import ObjectId
 
@@ -19,7 +19,7 @@ class RiskDecision(BaseModel):
 class DecisionContext(BaseModel):
     id: Optional[str] = Field(default_factory=lambda: str(ObjectId()), alias="_id")
     user_id: str = Field(..., title="User ID", description="User ID for the decision context")
-    date: datetime = Field(default_factory=lambda: datetime.now(datetime.UTC))
+    date: datetime = Field(default_factory=lambda: datetime.now(UTC))
     context: Context = Field(..., title="Context", description="Context for the decision context")
     risks_decisions: List[RiskDecision] = []
 
